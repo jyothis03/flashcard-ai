@@ -1,0 +1,36 @@
+.app {
+  min-height: 100vh;
+}
+
+.error-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: rgba(160, 50, 50, 0.95);
+  backdrop-filter: blur(8px);
+  color: #ffd4d4;
+  padding: 12px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.error-banner button {
+  background: none;
+  border: none;
+  color: #ffd4d4;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 0 4px;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+  line-height: 1;
+}
+
+.error-banner button:hover {
+  opacity: 1;
+}
