@@ -1,6 +1,6 @@
 # AI-Powered Flashcard Generator
 
-A full-stack application that transforms dense PDF documents into bite-sized, study-ready flashcards using Google's Gemini 1.5 Flash LLM.
+A full-stack application that transforms dense PDF documents into bite-sized, study-ready flashcards using Google's Gemini Flash LLM.
 
 ## 🚀 Project Overview
 This project was built as a deep dive into building production-ready AI integrations. It focuses on handling long-running tasks asynchronously to ensure a smooth user experience.
